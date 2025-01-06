@@ -14,52 +14,51 @@ A modern e-commerce web application built with React, TypeScript, and Material-U
 ## Project Structure
 
 ```
-bash
 src/
-├── assets/ # Static assets (images, fonts, etc.)
+├── assets/                  # Static assets (images, fonts, etc.)
 ├── components/
-│ ├── common/ # Reusable UI components
-│ │ ├── Button/ # Custom buttons
-│ │ ├── Input/ # Form inputs
-│ │ └── Loading/ # Loading states
-│ └── layout/ # Layout components
-│ ├── Header/ # App header/navigation
-│ ├── Footer/ # App footer
-│ └── Sidebar/ # Sidebar navigation
+│   ├── common/             # Reusable UI components
+│   │   ├── Button/         # Custom buttons
+│   │   ├── Input/          # Form inputs
+│   │   └── Loading/        # Loading states
+│   └── layout/             # Layout components
+│       ├── Header/         # App header/navigation
+│       ├── Footer/         # App footer
+│       └── Sidebar/        # Sidebar navigation
 │
-├── features/ # Feature-based modules
-│ ├── auth/ # Authentication
-│ ├── products/ # Product catalog
-│ ├── cart/ # Shopping cart
-│ └── checkout/ # Checkout process
+├── features/               # Feature-based modules
+│   ├── auth/               # Authentication
+│   ├── products/           # Product catalog
+│   ├── cart/               # Shopping cart
+│   └── checkout/           # Checkout process
 │
-├── hooks/ # Custom React hooks
-│ ├── useCart.ts # Shopping cart logic
-│ └── useAuth.ts # Authentication logic
+├── hooks/                  # Custom React hooks
+│   ├── useCart.ts          # Shopping cart logic
+│   └── useAuth.ts          # Authentication logic
 │
-├── pages/ # Page components
-│ ├── Home/ # Homepage
-│ ├── Products/ # Product listing
-│ ├── ProductDetail/ # Single product view
-│ ├── Cart/ # Cart page
-│ └── Checkout/ # Checkout flow
+├── pages/                  # Page components
+│   ├── Home/               # Homepage
+│   ├── Products/           # Product listing
+│   ├── ProductDetail/      # Single product view
+│   ├── Cart/               # Cart page
+│   └── Checkout/           # Checkout flow
 │
-├── services/ # API services
-│ ├── api.ts # Axios instance/config
-│ ├── auth.service.ts # Auth API calls
-│ └── products.service.ts # Product API calls
+├── services/               # API services
+│   ├── api.ts              # Axios instance/config
+│   ├── auth.service.ts     # Auth API calls
+│   └── products.service.ts  # Product API calls
 │
-├── store/ # Redux store setup
-│ ├── slices/ # Redux slices
-│ └── index.ts # Store configuration
+├── store/                  # Redux store setup
+│   ├── slices/             # Redux slices
+│   └── index.ts            # Store configuration
 │
-├── types/ # TypeScript types
-│ ├── product.types.ts # Product interfaces
-│ └── user.types.ts # User interfaces
+├── types/                  # TypeScript types
+│   ├── product.types.ts    # Product interfaces
+│   └── user.types.ts       # User interfaces
 │
-└── utils/ # Utility functions
-├── constants.ts # App constants
-└── helpers.ts # Helper functions
+└── utils/                  # Utility functions
+    ├── constants.ts        # App constants
+    └── helpers.ts          # Helper functions
 ```
 
 ## Architecture Explanation
@@ -76,21 +75,18 @@ src/
 2. Install dependencies:
 
 ```
-bash
 yarn install
 ```
 
 3. Start the development server:
 
 ```
-bash
 yarn dev
 ```
 
 4. Build for production:
 
 ```
-bash
 yarn build
 ```
 
